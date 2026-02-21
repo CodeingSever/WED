@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>คู่มือความรู้คอมพิวเตอร์ครบวงจร</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-layout">
+      <div class="hero-content">
+        <h1>คู่มือความรู้คอมพิวเตอร์ครบวงจร</h1>
+        <p>เริ่มต้นจากศูนย์ ไปจนถึงใช้งานคอมพิวเตอร์ได้อย่างมั่นใจ ครอบคลุมตั้งแต่ฮาร์ดแวร์ ซอฟต์แวร์ อินเทอร์เน็ต ไปจนถึงความปลอดภัยไซเบอร์</p>
+        <div class="hero-actions">
+          <a href="#basics" class="btn btn-primary">เริ่มเรียนพื้นฐาน</a>
+          <a href="#topics" class="btn btn-outline">เลือกหัวข้อที่สนใจ</a>
+        </div>
+      </div>
+      <div class="hero-graphic">
+        <img
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+          alt="ภาพโต๊ะคอมพิวเตอร์พร้อมโน้ตบุ๊กและเมาส์"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </header>
+
+  <nav class="top-nav">
+    <div class="container nav-inner">
+      <div class="logo">Computer Guide</div>
+      <ul class="nav-links">
+        <li><a href="#basics">พื้นฐานคอมพิวเตอร์</a></li>
+        <li><a href="#hardware">ฮาร์ดแวร์</a></li>
+        <li><a href="#software">ซอฟต์แวร์</a></li>
+        <li><a href="#network">อินเทอร์เน็ต</a></li>
+        <li><a href="#security">ความปลอดภัย</a></li>
+        <li><a href="#care">การดูแลรักษา</a></li>
+        <li><a href="#coding">เริ่มเขียนโปรแกรม</a></li>
+        <li><a href="#webdev">เขียนเว็บไซต์</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="basics" class="section">
+      <div class="container">
+        <h2>พื้นฐานคอมพิวเตอร์คืออะไร</h2>
+        <p class="section-intro">
+          คอมพิวเตอร์คือเครื่องอิเล็กทรอนิกส์ที่รับข้อมูล ประมวลผล และแสดงผลตามคำสั่งของเรา
+          การเข้าใจหลักการทำงานพื้นฐานจะช่วยให้คุณแก้ปัญหาและใช้งานได้อย่างมีประสิทธิภาพมากขึ้น
+        </p>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>วงจรการทำงานของคอมพิวเตอร์ (Input → Process → Output → Storage)</h3>
+            <ul>
+              <li><strong>Input</strong> – ข้อมูลที่เราป้อนเข้าไป เช่น แป้นพิมพ์ เมาส์ ไมโครโฟน</li>
+              <li><strong>Process</strong> – การประมวลผลข้อมูลโดยหน่วยประมวลผลกลาง (CPU)</li>
+              <li><strong>Output</strong> – ผลลัพธ์ที่แสดงออกมา เช่น หน้าจอ ลำโพง เครื่องพิมพ์</li>
+              <li><strong>Storage</strong> – การเก็บข้อมูลระยะสั้นและระยะยาว เช่น RAM, SSD, HDD</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>ประเภทของคอมพิวเตอร์ที่พบบ่อย</h3>
+            <ul>
+              <li><strong>Desktop</strong> – เครื่องตั้งโต๊ะ เหมาะกับการใช้งานที่ต้องการประสิทธิภาพสูง</li>
+              <li><strong>Laptop/Notebook</strong> – พกพาสะดวก ใช้งานได้ทั้งทำงานและเรียน</li>
+              <li><strong>Tablet</strong> – เน้นความคล่องตัว ใช้ปากกาเขียน วาดรูป เล่นอินเทอร์เน็ต</li>
+              <li><strong>Smartphone</strong> – คอมพิวเตอร์ขนาดเล็กในมือคุณ เชื่อมต่ออินเทอร์เน็ตได้ตลอดเวลา</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="topics" class="section section-muted">
+      <div class="container">
+        <h2>ภาพรวมหัวข้อสำคัญที่คุณจะได้เรียนรู้</h2>
+        <div class="grid grid-3">
+          <article class="topic-card">
+            <h3>ฮาร์ดแวร์</h3>
+            <p>รู้จักส่วนประกอบภายในเครื่อง เช่น CPU, RAM, SSD และวิธีเลือกสเปกให้เหมาะกับการใช้งาน</p>
+          </article>
+          <article class="topic-card">
+            <h3>ซอฟต์แวร์ & ระบบปฏิบัติการ</h3>
+            <p>ทำความเข้าใจ Windows, macOS, โปรแกรมพื้นฐาน และการติดตั้ง/ถอนการติดตั้งโปรแกรม</p>
+          </article>
+          <article class="topic-card">
+            <h3>อินเทอร์เน็ต & เครือข่าย</h3>
+            <p>วิธีเชื่อมต่อ Wi‑Fi, ใช้งานเว็บเบราว์เซอร์ อีเมล และมารยาทในการใช้อินเทอร์เน็ต</p>
+          </article>
+          <article class="topic-card">
+            <h3>ความปลอดภัยไซเบอร์</h3>
+            <p>ป้องกันไวรัส มัลแวร์ การหลอกลวงออนไลน์ และการตั้งรหัสผ่านอย่างปลอดภัย</p>
+          </article>
+          <article class="topic-card">
+            <h3>การดูแลรักษาเครื่อง</h3>
+            <p>การทำความสะอาด จัดการพื้นที่เก็บข้อมูล และเทคนิคให้เครื่องทำงานลื่นนานขึ้น</p>
+          </article>
+          <article class="topic-card">
+            <h3>เริ่มต้นเขียนโปรแกรม</h3>
+            <p>แนวคิดพื้นฐานในการเขียนโค้ด และคำศัพท์สำคัญที่ควรรู้ ก่อนลงมือเรียนภาษาโปรแกรม</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hardware" class="section">
+      <div class="container">
+        <h2>ฮาร์ดแวร์คอมพิวเตอร์ที่ควรรู้จัก</h2>
+        <img
+          class="section-image"
+          src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1400&q=80"
+          alt="ภาพชิ้นส่วนคอมพิวเตอร์บนโต๊ะ เช่น เมนบอร์ด และการ์ดจอ"
+          loading="lazy"
+        />
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>CPU (หน่วยประมวลผลกลาง)</h3>
+            <p>
+              เปรียบเสมือน “สมอง” ของคอมพิวเตอร์ ทำหน้าที่ประมวลผลคำสั่งทั้งหมด
+            </p>
+            <ul>
+              <li>ยิ่งความเร็ว (GHz) สูง สามารถประมวลผลงานหนักได้ดีขึ้น</li>
+              <li>จำนวนคอร์ (Cores) มาก ช่วยให้ทำงานหลายอย่างพร้อมกันได้ดี</li>
+              <li>เหมาะกับงาน: เล่นเกม ตัดต่อวิดีโอ เขียนโปรแกรม</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>RAM (หน่วยความจำหลัก)</h3>
+            <p>
+              ใช้เก็บข้อมูลชั่วคราวขณะโปรแกรมทำงาน ถ้า RAM น้อย เครื่องจะเปิดหลายโปรแกรมพร้อมกันได้ไม่ลื่น
+            </p>
+            <ul>
+              <li>ใช้งานทั่วไป แนะนำอย่างน้อย 8 GB</li>
+              <li>ตัดต่อวิดีโอ/งานกราฟิก แนะนำ 16 GB ขึ้นไป</li>
+              <li>การเพิ่ม RAM มักช่วยให้เครื่องเร็วขึ้นอย่างชัดเจน</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>ที่เก็บข้อมูล (SSD / HDD)</h3>
+            <p>
+              เก็บไฟล์ระยะยาว เช่น รูปภาพ วิดีโอ เอกสาร และตัวระบบปฏิบัติการ
+            </p>
+            <ul>
+              <li><strong>SSD</strong> – เร็ว เงียบ ปลอดภัยต่อการสั่นสะเทือน เหมาะกับเครื่องยุคใหม่</li>
+              <li><strong>HDD</strong> – ราคาถูกต่อความจุ เหมาะกับการเก็บข้อมูลจำนวนมาก</li>
+              <li>ถ้าอยากให้เครื่องบูตไว และเปิดโปรแกรมเร็ว แนะนำให้ใช้ SSD</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>การ์ดจอ (GPU)</h3>
+            <p>
+              ช่วยประมวลผลภาพและวิดีโอ เหมาะกับงานเกม 3D กราฟิก และ AI
+            </p>
+            <ul>
+              <li>มีทั้งแบบออนบอร์ด (ติดมากับ CPU/เมนบอร์ด) และแบบแยก</li>
+              <li>เกมใหม่ ๆ มักต้องการการ์ดจอแยกเพื่อให้เล่นได้ลื่น</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>อุปกรณ์รับเข้า & แสดงผล</h3>
+            <ul>
+              <li><strong>แป้นพิมพ์/เมาส์</strong> – อุปกรณ์ป้อนคำสั่งหลัก</li>
+              <li><strong>จอภาพ</strong> – ยิ่งความละเอียดสูง ภาพยิ่งคมชัด</li>
+              <li><strong>ลำโพง/หูฟัง</strong> – สำหรับเสียงจากเครื่อง</li>
+              <li><strong>กล้องเว็บแคม</strong> – สำหรับประชุมออนไลน์/วิดีโอคอล</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="section section-muted">
+      <div class="container">
+        <h2>ซอฟต์แวร์และระบบปฏิบัติการ</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>ระบบปฏิบัติการ (Operating System)</h3>
+            <p>
+              เป็นซอฟต์แวร์หลักที่จัดการทุกอย่างในเครื่อง เช่น Windows, macOS, Linux
+            </p>
+            <ul>
+              <li><strong>Windows</strong> – ใช้งานแพร่หลาย เหมาะกับงานทั่วไป เกม และโปรแกรมสำนักงาน</li>
+              <li><strong>macOS</strong> – เน้นความเสถียร ใช้กับเครื่อง Mac นิยมในสายกราฟิก/ตัดต่อ</li>
+              <li><strong>Linux</strong> – เหมาะกับงานเซิร์ฟเวอร์ นักพัฒนา และผู้ใช้ระดับสูง</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>โปรแกรมพื้นฐานที่ควรรู้จัก</h3>
+            <ul>
+              <li>เว็บเบราว์เซอร์ (Chrome, Edge, Firefox) ใช้ท่องอินเทอร์เน็ต</li>
+              <li>ชุดสำนักงาน (Word, Excel, PowerPoint/Google Docs) ใช้ทำงานเอกสาร</li>
+              <li>โปรแกรมดู/แก้ไข PDF เช่น Adobe Acrobat Reader</li>
+              <li>โปรแกรมแอนตี้ไวรัสและดูแลเครื่อง</li>
+            </ul>
+            <p><strong>แนวทางที่ดี</strong>: ติดตั้งเฉพาะโปรแกรมที่จำเป็น อัปเดตสม่ำเสมอ และดาวน์โหลดจากแหล่งที่เชื่อถือได้เท่านั้น</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="network" class="section">
+      <div class="container">
+        <h2>เครือข่ายและการใช้งานอินเทอร์เน็ต</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>เชื่อมต่ออินเทอร์เน็ตอย่างไร</h3>
+            <ul>
+              <li>เชื่อมต่อผ่าน <strong>Wi‑Fi</strong> – เลือกชื่อเครือข่าย ใส่รหัสผ่านให้ถูกต้อง</li>
+              <li>เชื่อมต่อผ่าน <strong>สาย LAN</strong> – เสียบสายเข้ากับเราท์เตอร์และคอมพิวเตอร์</li>
+              <li>ตรวจสอบไอคอนสถานะการเชื่อมต่อที่มุมขวาล่างของหน้าจอ (Windows)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>มารยาทและความปลอดภัยบนโลกออนไลน์</h3>
+            <ul>
+              <li>หลีกเลี่ยงการโพสต์ข้อมูลส่วนตัว เช่น เลขบัตรประชาชน ที่อยู่ เบอร์โทร</li>
+              <li>อย่าคลิกลิงก์ที่ไม่น่าเชื่อถือ หรือจากคนแปลกหน้า</li>
+              <li>คิดก่อนแชร์ ตรวจสอบความจริงของข้อมูลก่อนส่งต่อ</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="section section-muted">
+      <div class="container">
+        <h2>ความปลอดภัยไซเบอร์เบื้องต้น</h2>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>รหัสผ่านที่ดีควรเป็นอย่างไร</h3>
+            <ul>
+              <li>ยาวอย่างน้อย 10–12 ตัวอักษรขึ้นไป</li>
+              <li>ผสมตัวอักษรพิมพ์เล็ก พิมพ์ใหญ่ ตัวเลข และสัญลักษณ์</li>
+              <li>ไม่ใช้ข้อมูลเดาง่าย เช่น ชื่อ วันเกิด เบอร์โทร</li>
+              <li>ไม่ใช้รหัสผ่านเดียวกันทุกเว็บ</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>ไวรัส มัลแวร์ & ฟิชชิง</h3>
+            <ul>
+              <li><strong>ไวรัส/มัลแวร์</strong> – โปรแกรมประสงค์ร้ายที่ทำให้เครื่องช้าลง หรือขโมยข้อมูล</li>
+              <li><strong>ฟิชชิง</strong> – การหลอกให้กรอกข้อมูลสำคัญผ่านเว็บ/อีเมลปลอม</li>
+              <li>ติดตั้งแอนตี้ไวรัสที่เชื่อถือได้ และสแกนเครื่องสม่ำเสมอ</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>นิสัยการใช้งานที่ปลอดภัย</h3>
+            <ul>
+              <li>อัปเดตระบบปฏิบัติการและโปรแกรมให้เป็นเวอร์ชันล่าสุด</li>
+              <li>สำรองข้อมูลสำคัญเป็นระยะ (เช่น External HDD หรือ Cloud)</li>
+              <li>ระวังการใช้ Wi‑Fi สาธารณะ อย่าใช้ทำธุรกรรมสำคัญ</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="care" class="section">
+      <div class="container">
+        <h2>การดูแลรักษาเครื่องคอมพิวเตอร์</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>ดูแลด้านฮาร์ดแวร์</h3>
+            <ul>
+              <li>ไม่วางเครื่องในที่ร้อนหรืออับชื้น</li>
+              <li>ทำความสะอาดฝุ่นบริเวณช่องลม และแป้นพิมพ์เป็นระยะ</li>
+              <li>หลีกเลี่ยงการกระแทก โดยเฉพาะโน้ตบุ๊กที่ยังใช้ HDD</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>ดูแลด้านซอฟต์แวร์</h3>
+            <ul>
+              <li>ลบโปรแกรมที่ไม่ใช้จริงเพื่อประหยัดพื้นที่</li>
+              <li>จัดระเบียบไฟล์/โฟลเดอร์ให้หาได้ง่าย</li>
+              <li>รีสตาร์ตเครื่องบ้างเป็นระยะเพื่อเคลียร์หน่วยความจำ</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="coding" class="section section-muted">
+      <div class="container">
+        <h2>เริ่มต้นเข้าสู่โลกการเขียนโปรแกรม</h2>
+        <p class="section-intro">
+          การเขียนโปรแกรมคือการสั่งให้คอมพิวเตอร์ทำงานตามขั้นตอนที่เรากำหนด
+          ไม่จำเป็นต้องเก่งคณิตศาสตร์มากก็เริ่มเรียนรู้ได้ เพียงแค่เข้าใจตรรกะทีละขั้นตอน
+        </p>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>แนวคิดสำคัญที่ควรรู้ก่อน</h3>
+            <ul>
+              <li><strong>ตัวแปร (Variable)</strong> – กล่องเก็บค่าข้อมูล เช่น ตัวเลข ข้อความ</li>
+              <li><strong>เงื่อนไข (If/Else)</strong> – สั่งให้โปรแกรมตัดสินใจตามเงื่อนไข</li>
+              <li><strong>ลูป (Loop)</strong> – ทำงานเดิมซ้ำ ๆ จนกว่าจะครบตามที่กำหนด</li>
+              <li><strong>ฟังก์ชัน (Function)</strong> – กลุ่มคำสั่งที่นำกลับมาใช้ซ้ำได้</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>ภาษายอดนิยมสำหรับผู้เริ่มต้น</h3>
+            <ul>
+              <li><strong>Python</strong> – โค้ดอ่านง่าย เหมาะสำหรับผู้เริ่มต้นและสาย Data/AI</li>
+              <li><strong>JavaScript</strong> – ใช้ทำเว็บไซต์ ให้หน้าเว็บโต้ตอบกับผู้ใช้</li>
+              <li><strong>Scratch</strong> – ภาษาแบบต่อบล็อก สำหรับเด็กและผู้เริ่มต้น 100%</li>
+            </ul>
+            <p>เริ่มจากเลือกภาษาเดียว ฝึกทำแบบฝึกหัดเล็ก ๆ ทุกวัน แล้วค่อยต่อยอดไปสู่โปรเจกต์จริง</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="webdev" class="section">
+      <div class="container">
+        <h2>คู่มือเขียนเว็บไซต์ทุกขั้นตอน</h2>
+        <p class="section-intro">
+          การเขียนเว็บไซต์ประกอบด้วย 3 ภาษาหลัก: HTML (โครงสร้าง), CSS (การจัดรูปแบบ), และ JavaScript (การโต้ตอบ)
+          เริ่มต้นจากพื้นฐานทีละขั้นตอน จนสามารถสร้างเว็บไซต์ที่ใช้งานได้จริง
+        </p>
+
+        <!-- ขั้นตอนที่ 1: HTML พื้นฐาน -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 1: HTML พื้นฐาน - สร้างโครงสร้างเว็บ</h3>
+          <p class="step-description">
+            HTML (HyperText Markup Language) คือภาษาที่ใช้สร้างโครงสร้างของหน้าเว็บ
+            คล้ายกับโครงกระดูกของบ้าน ที่กำหนดว่าส่วนไหนคือหัวข้อ ส่วนไหนคือเนื้อหา
+          </p>
+          
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>โครงสร้างพื้นฐานของ HTML</h4>
+              <pre class="code-block"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="th"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;ชื่อเว็บไซต์&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;หัวข้อหลัก&lt;/h1&gt;
+  &lt;p&gt;ย่อหน้าเนื้อหา&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+              <p><strong>คำอธิบาย:</strong></p>
+              <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code> – บอกเบราว์เซอร์ว่านี่คือเอกสาร HTML5</li>
+                <li><code>&lt;html&gt;</code> – องค์ประกอบหลักที่ห่อหุ้มทุกอย่าง</li>
+                <li><code>&lt;head&gt;</code> – ข้อมูลเมตาที่ไม่แสดงบนหน้าเว็บ</li>
+                <li><code>&lt;body&gt;</code> – เนื้อหาที่แสดงบนหน้าเว็บ</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>Tags สำคัญที่ควรรู้</h4>
+              <ul>
+                <li><code>&lt;h1&gt; ถึง &lt;h6&gt;</code> – หัวข้อ (h1 ใหญ่สุด, h6 เล็กสุด)</li>
+                <li><code>&lt;p&gt;</code> – ย่อหน้า</li>
+                <li><code>&lt;a href="..."&gt;</code> – ลิงก์</li>
+                <li><code>&lt;img src="..." alt="..."&gt;</code> – รูปภาพ</li>
+                <li><code>&lt;ul&gt; &lt;li&gt;</code> – รายการแบบไม่มีลำดับ</li>
+                <li><code>&lt;ol&gt; &lt;li&gt;</code> – รายการแบบมีลำดับ</li>
+                <li><code>&lt;div&gt;</code> – กล่องสำหรับจัดกลุ่มองค์ประกอบ</li>
+                <li><code>&lt;span&gt;</code> – สำหรับเน้นข้อความเล็ก ๆ</li>
+                <li><code>&lt;button&gt;</code> – ปุ่ม</li>
+                <li><code>&lt;input&gt;</code> – ช่องกรอกข้อมูล</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="card example-card">
+            <h4>ตัวอย่างการใช้งาน:</h4>
+            <pre class="code-block"><code>&lt;body&gt;
+  &lt;h1&gt;ยินดีต้อนรับ&lt;/h1&gt;
+  &lt;p&gt;นี่คือเว็บไซต์แรกของฉัน&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;รายการที่ 1&lt;/li&gt;
+    &lt;li&gt;รายการที่ 2&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;a href="https://www.google.com"&gt;ไปที่ Google&lt;/a&gt;
+&lt;/body&gt;</code></pre>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 2: CSS พื้นฐาน -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 2: CSS - จัดรูปแบบให้สวยงาม</h3>
+          <p class="step-description">
+            CSS (Cascading Style Sheets) ใช้สำหรับกำหนดสี ขนาดตัวอักษร การจัดวาง
+            และทำให้เว็บไซต์ดูสวยงามและใช้งานง่าย
+          </p>
+
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>วิธีเชื่อม CSS กับ HTML</h4>
+              <p><strong>วิธีที่ 1: ไฟล์แยก (แนะนำ)</strong></p>
+              <pre class="code-block"><code>&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;</code></pre>
+              
+              <p><strong>วิธีที่ 2: ใน HTML</strong></p>
+              <pre class="code-block"><code>&lt;style&gt;
+  h1 { color: blue; }
+&lt;/style&gt;</code></pre>
+            </article>
+
+            <article class="card">
+              <h4>โครงสร้าง CSS</h4>
+              <pre class="code-block"><code>selector {
+  property: value;
+  property: value;
+}</code></pre>
+              <p><strong>ตัวอย่าง:</strong></p>
+              <pre class="code-block"><code>h1 {
+  color: blue;
+  font-size: 32px;
+  text-align: center;
+}</code></pre>
+            </article>
+          </div>
+
+          <div class="grid grid-3">
+            <article class="card">
+              <h4>สีและข้อความ</h4>
+              <ul>
+                <li><code>color: red;</code> – สีข้อความ</li>
+                <li><code>background-color: yellow;</code> – สีพื้นหลัง</li>
+                <li><code>font-size: 16px;</code> – ขนาดตัวอักษร</li>
+                <li><code>font-family: Arial;</code> – ฟอนต์</li>
+                <li><code>text-align: center;</code> – จัดตำแหน่งข้อความ</li>
+                <li><code>font-weight: bold;</code> – ตัวหนา</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>ขนาดและระยะห่าง</h4>
+              <ul>
+                <li><code>width: 500px;</code> – ความกว้าง</li>
+                <li><code>height: 300px;</code> – ความสูง</li>
+                <li><code>margin: 20px;</code> – ระยะห่างด้านนอก</li>
+                <li><code>padding: 15px;</code> – ระยะห่างด้านใน</li>
+                <li><code>border: 1px solid black;</code> – เส้นขอบ</li>
+                <li><code>border-radius: 10px;</code> – มุมโค้งมน</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>การจัดวาง</h4>
+              <ul>
+                <li><code>display: flex;</code> – จัดเรียงแบบ flex</li>
+                <li><code>display: grid;</code> – จัดเรียงแบบ grid</li>
+                <li><code>justify-content: center;</code> – จัดแนวนอน</li>
+                <li><code>align-items: center;</code> – จัดแนวตั้ง</li>
+                <li><code>position: relative;</code> – ตำแหน่งแบบ relative</li>
+                <li><code>position: absolute;</code> – ตำแหน่งแบบ absolute</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="card example-card">
+            <h4>ตัวอย่างการใช้งาน:</h4>
+            <pre class="code-block"><code>/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}</code></pre>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 3: JavaScript พื้นฐาน -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 3: JavaScript - ทำให้เว็บโต้ตอบได้</h3>
+          <p class="step-description">
+            JavaScript ทำให้เว็บไซต์สามารถโต้ตอบกับผู้ใช้ได้ เช่น คลิกปุ่มแล้วเปลี่ยนสี
+            กรอกฟอร์มแล้วตรวจสอบข้อมูล หรือแสดงผลแบบไดนามิก
+          </p>
+
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>วิธีเชื่อม JavaScript กับ HTML</h4>
+              <p><strong>วิธีที่ 1: ไฟล์แยก (แนะนำ)</strong></p>
+              <pre class="code-block"><code>&lt;body&gt;
+  &lt;!-- เนื้อหา HTML --&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</code></pre>
+              
+              <p><strong>วิธีที่ 2: ใน HTML</strong></p>
+              <pre class="code-block"><code>&lt;script&gt;
+  console.log("Hello World!");
+&lt;/script&gt;</code></pre>
+            </article>
+
+            <article class="card">
+              <h4>พื้นฐาน JavaScript</h4>
+              <ul>
+                <li><strong>ตัวแปร:</strong> <code>let name = "สมชาย";</code></li>
+                <li><strong>ตัวเลข:</strong> <code>let age = 25;</code></li>
+                <li><strong>เงื่อนไข:</strong> <code>if (age >= 18) { ... }</code></li>
+                <li><strong>ลูป:</strong> <code>for (let i = 0; i < 10; i++) { ... }</code></li>
+                <li><strong>ฟังก์ชัน:</strong> <code>function greet() { ... }</code></li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>การเลือกองค์ประกอบ (DOM)</h4>
+              <ul>
+                <li><code>document.getElementById("id")</code> – เลือกตาม ID</li>
+                <li><code>document.querySelector(".class")</code> – เลือกตาม class</li>
+                <li><code>document.querySelectorAll("p")</code> – เลือกหลายตัว</li>
+              </ul>
+              <p><strong>ตัวอย่าง:</strong></p>
+              <pre class="code-block"><code>const button = document.getElementById("myButton");
+const title = document.querySelector("h1");</code></pre>
+            </article>
+
+            <article class="card">
+              <h4>Event Listeners (การตอบสนอง)</h4>
+              <ul>
+                <li><code>click</code> – เมื่อคลิก</li>
+                <li><code>change</code> – เมื่อเปลี่ยนค่า</li>
+                <li><code>input</code> – เมื่อพิมพ์</li>
+                <li><code>load</code> – เมื่อโหลดหน้าเว็บ</li>
+              </ul>
+              <p><strong>ตัวอย่าง:</strong></p>
+              <pre class="code-block"><code>button.addEventListener("click", function() {
+  alert("คุณคลิกปุ่มแล้ว!");
+});</code></pre>
+            </article>
+          </div>
+
+          <div class="card example-card">
+            <h4>ตัวอย่างการใช้งาน:</h4>
+            <pre class="code-block"><code>// script.js
+document.addEventListener("DOMContentLoaded", function() {
+  const button = document.getElementById("changeColor");
+  const heading = document.querySelector("h1");
+  
+  button.addEventListener("click", function() {
+    heading.style.color = "blue";
+    heading.textContent = "สีเปลี่ยนแล้ว!";
+  });
+  
+  // ตัวอย่างการตรวจสอบฟอร์ม
+  const form = document.querySelector("form");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault(); // ป้องกันการส่งฟอร์ม
+    const input = document.getElementById("name");
+    if (input.value === "") {
+      alert("กรุณากรอกชื่อ");
+    } else {
+      alert("สวัสดี " + input.value);
+    }
+  });
+});</code></pre>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 4: Responsive Design -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 4: Responsive Design - รองรับทุกหน้าจอ</h3>
+          <p class="step-description">
+            ทำให้เว็บไซต์แสดงผลได้ดีทั้งบนคอมพิวเตอร์ แท็บเล็ต และมือถือ
+            โดยใช้ Media Queries ใน CSS
+          </p>
+
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>Media Queries</h4>
+              <p>ใช้สำหรับปรับสไตล์ตามขนาดหน้าจอ:</p>
+              <pre class="code-block"><code>/* สำหรับหน้าจอใหญ่ (คอมพิวเตอร์) */
+.container {
+  width: 1200px;
+}
+
+/* สำหรับหน้าจอเล็ก (มือถือ) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+}</code></pre>
+            </article>
+
+            <article class="card">
+              <h4>Viewport Meta Tag</h4>
+              <p>ต้องเพิ่มใน &lt;head&gt; เพื่อให้เว็บแสดงผลถูกต้องบนมือถือ:</p>
+              <pre class="code-block"><code>&lt;head&gt;
+  &lt;meta name="viewport" 
+        content="width=device-width, initial-scale=1.0"&gt;
+&lt;/head&gt;</code></pre>
+              <p><strong>คำอธิบาย:</strong></p>
+              <ul>
+                <li><code>width=device-width</code> – ให้ความกว้างเท่ากับหน้าจอ</li>
+                <li><code>initial-scale=1.0</code> – ไม่ซูมเมื่อเปิดหน้าเว็บ</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="card example-card">
+            <h4>ตัวอย่าง Responsive Layout:</h4>
+            <pre class="code-block"><code>/* Desktop: 3 คอลัมน์ */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Tablet: 2 คอลัมน์ */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1 คอลัมน์ */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}</code></pre>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 5: เครื่องมือและเทคนิค -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 5: เครื่องมือและเทคนิคที่ควรรู้</h3>
+          
+          <div class="grid grid-3">
+            <article class="card">
+              <h4>เครื่องมือสำหรับเขียนโค้ด</h4>
+              <ul>
+                <li><strong>Visual Studio Code</strong> – ฟรี แนะนำสำหรับผู้เริ่มต้น</li>
+                <li><strong>Sublime Text</strong> – เร็วและเบา</li>
+                <li><strong>Atom</strong> – ฟรี ใช้งานง่าย</li>
+                <li><strong>Notepad++</strong> – สำหรับ Windows</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>Extension ที่ควรติดตั้ง</h4>
+              <ul>
+                <li><strong>Live Server</strong> – รีเฟรชหน้าเว็บอัตโนมัติ</li>
+                <li><strong>Prettier</strong> – จัดรูปแบบโค้ดอัตโนมัติ</li>
+                <li><strong>Emmet</strong> – เขียน HTML/CSS เร็วขึ้น</li>
+                <li><strong>Color Highlight</strong> – แสดงสีในโค้ด</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>แหล่งเรียนรู้เพิ่มเติม</h4>
+              <ul>
+                <li><strong>MDN Web Docs</strong> – คู่มืออ้างอิงที่ครบถ้วน</li>
+                <li><strong>W3Schools</strong> – เรียนแบบทีละขั้นตอน</li>
+                <li><strong>freeCodeCamp</strong> – คอร์สเรียนฟรี</li>
+                <li><strong>YouTube</strong> – วิดีโอสอนภาษาไทยและอังกฤษ</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="card example-card">
+            <h4>โปรแกรมที่ใช้สอน (แบบละเอียด กดเพื่อดูทีละตัว)</h4>
+            <p style="color: var(--text-muted); margin: 0;">
+              แนะนำให้ติดตั้งตามลำดับ: <strong>เบราว์เซอร์</strong> → <strong>VS Code</strong> → <strong>ส่วนเสริม (Extensions)</strong> → (เสริม) <strong>Git</strong> และ <strong>Node.js</strong>
+            </p>
+          </div>
+
+          <div class="programs">
+            <details class="program">
+              <summary>1) Visual Studio Code (VS Code) – โปรแกรมหลักสำหรับเขียนโค้ด</summary>
+              <div class="program-body">
+                <p>
+                  ใช้สำหรับสร้าง/แก้ไขไฟล์ <code>.html</code>, <code>.css</code>, <code>.js</code> มีระบบช่วยเติมโค้ด และติดตั้งส่วนเสริมได้
+                </p>
+                <ul>
+                  <li><strong>ดาวน์โหลด</strong>: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">code.visualstudio.com</a></li>
+                  <li><strong>ติดตั้ง (Windows)</strong>:
+                    <ol class="program-steps">
+                      <li>ดาวน์โหลดไฟล์ติดตั้ง แล้วดับเบิลคลิก</li>
+                      <li>ติ๊กตัวเลือก “Add to PATH” (ถ้ามี) และ “Create Desktop icon”</li>
+                      <li>กด Install → Finish</li>
+                    </ol>
+                  </li>
+                  <li><strong>เริ่มใช้งานครั้งแรก</strong>:
+                    <ol class="program-steps">
+                      <li>สร้างโฟลเดอร์โปรเจกต์ เช่น <code>my-website</code></li>
+                      <li>ใน VS Code ไปที่ <strong>File → Open Folder…</strong> แล้วเลือกโฟลเดอร์</li>
+                      <li>สร้างไฟล์ <code>index.html</code>, <code>styles.css</code>, <code>script.js</code></li>
+                    </ol>
+                  </li>
+                  <li><strong>คีย์ลัดที่ใช้บ่อย</strong>: <code>Ctrl+S</code> บันทึก, <code>Ctrl+P</code> ค้นหาไฟล์, <code>Ctrl+/</code> คอมเมนต์</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>2) Live Server (Extension) – เปิดเว็บแบบรีเฟรชอัตโนมัติ</summary>
+              <div class="program-body">
+                <p>ช่วยเปิดเว็บผ่าน Local Server ทำให้แก้โค้ดแล้วหน้าเว็บรีเฟรชเอง ไม่ต้องกด F5 บ่อย ๆ</p>
+                <ul>
+                  <li><strong>ติดตั้ง</strong>:
+                    <ol class="program-steps">
+                      <li>เปิด VS Code → แถบ Extensions (ไอคอนสี่เหลี่ยม) หรือกด <code>Ctrl+Shift+X</code></li>
+                      <li>ค้นหา <strong>Live Server</strong> (ผู้พัฒนา: Ritwick Dey) → กด Install</li>
+                    </ol>
+                  </li>
+                  <li><strong>วิธีใช้</strong>:
+                    <ol class="program-steps">
+                      <li>เปิดไฟล์ <code>index.html</code></li>
+                      <li>คลิกปุ่ม <strong>Go Live</strong> มุมล่างขวา</li>
+                      <li>เว็บจะเปิดในเบราว์เซอร์ (เช่น <code>http://127.0.0.1:5500</code>)</li>
+                      <li>แก้ไฟล์แล้วกดบันทึก (<code>Ctrl+S</code>) หน้าเว็บจะอัปเดต</li>
+                    </ol>
+                  </li>
+                  <li><strong>ถ้าเปิดไม่ขึ้น</strong>: ปิด Go Live แล้วเปิดใหม่, ตรวจว่าไฟล์อยู่ในโฟลเดอร์ที่เปิดด้วย <strong>Open Folder</strong></li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>3) Prettier (Extension) – จัดระเบียบโค้ดให้สวยอัตโนมัติ</summary>
+              <div class="program-body">
+                <p>ช่วยจัดย่อหน้า เว้นวรรค และรูปแบบโค้ดให้สม่ำเสมอ ลดปัญหา “โค้ดรกอ่านยาก”</p>
+                <ul>
+                  <li><strong>ติดตั้ง</strong>: VS Code → Extensions → ค้นหา <strong>Prettier - Code formatter</strong> → Install</li>
+                  <li><strong>ใช้งานเร็ว ๆ</strong>:
+                    <ol class="program-steps">
+                      <li>คลิกขวาในไฟล์ → <strong>Format Document</strong></li>
+                      <li>(แนะนำ) เปิด <strong>Format on Save</strong>: Settings → ค้นหา “format on save” → เปิดใช้งาน</li>
+                    </ol>
+                  </li>
+                  <li><strong>ทิป</strong>: ถ้า Format ไม่ทำงาน ให้ตั้ง Default Formatter เป็น Prettier ใน Settings</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>4) Google Chrome / Microsoft Edge – เบราว์เซอร์ + เครื่องมือ DevTools</summary>
+              <div class="program-body">
+                <p>ใช้ทดสอบเว็บไซต์ และใช้ DevTools เพื่อดู/แก้ HTML, CSS ชั่วคราว และตรวจ error ของ JavaScript</p>
+                <ul>
+                  <li><strong>เปิด DevTools</strong>: กด <code>F12</code> หรือ <code>Ctrl+Shift+I</code></li>
+                  <li><strong>แท็บที่ใช้บ่อย</strong>:
+                    <ul>
+                      <li><strong>Elements</strong> – ดูโครงสร้าง HTML และลองปรับ CSS แบบทันที</li>
+                      <li><strong>Console</strong> – ดู error/ข้อความจาก <code>console.log()</code></li>
+                      <li><strong>Network</strong> – ดูไฟล์ที่โหลด, 404, โหลดช้า</li>
+                    </ul>
+                  </li>
+                  <li><strong>ทดสอบมือถือ (Responsive)</strong>:
+                    <ol class="program-steps">
+                      <li>เปิด DevTools</li>
+                      <li>กดไอคอนมือถือ/แท็บเล็ต หรือกด <code>Ctrl+Shift+M</code></li>
+                      <li>เลือกขนาดหน้าจอแล้วดูว่าเว็บแตกไหม</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>5) Git และ GitHub Desktop (เสริม) – เก็บเวอร์ชันโค้ดและย้อนกลับได้</summary>
+              <div class="program-body">
+                <p>เหมาะมากเวลาฝึกทำโปรเจกต์: แก้พลาดสามารถย้อนกลับ และส่งงาน/แชร์งานได้</p>
+                <ul>
+                  <li><strong>ดาวน์โหลด Git</strong>: <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">git-scm.com</a></li>
+                  <li><strong>ดาวน์โหลด GitHub Desktop</strong>: <a href="https://desktop.github.com/" target="_blank" rel="noopener noreferrer">desktop.github.com</a></li>
+                  <li><strong>เริ่มต้นแบบง่าย (ในโฟลเดอร์โปรเจกต์)</strong>:
+                    <ol class="program-steps">
+                      <li>สร้าง repo ใหม่ใน GitHub Desktop</li>
+                      <li>Commit ทุกครั้งที่ทำเสร็จเป็น “ช่วง ๆ” เช่น “ทำเมนูเสร็จ”</li>
+                    </ol>
+                  </li>
+                  <li><strong>คำศัพท์ที่ต้องรู้</strong>: repository (ที่เก็บงาน), commit (บันทึกจุดเปลี่ยน), history (ประวัติ)</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>6) Node.js (เสริม) – ใช้เมื่อเริ่มทำเว็บแบบมีเครื่องมือ/เฟรมเวิร์ก</summary>
+              <div class="program-body">
+                <p>ถ้าคุณเริ่มเรียน React/Vue หรือใช้เครื่องมือ build (เช่น Vite) จะต้องใช้ Node.js</p>
+                <ul>
+                  <li><strong>ดาวน์โหลด (แนะนำ LTS)</strong>: <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">nodejs.org</a></li>
+                  <li><strong>ตรวจสอบติดตั้งสำเร็จ</strong> (เปิด PowerShell แล้วพิมพ์): <code>node -v</code> และ <code>npm -v</code></li>
+                  <li><strong>ใช้ทำอะไรได้บ้าง</strong>:
+                    <ul>
+                      <li>ติดตั้งไลบรารีด้วย <code>npm</code></li>
+                      <li>รันโปรเจกต์แบบ dev server (เช่น <code>npm run dev</code>)</li>
+                    </ul>
+                  </li>
+                  <li><strong>หมายเหตุ</strong>: สำหรับผู้เริ่มต้น HTML/CSS/JS ธรรมดา ใช้ Live Server ก็พอ</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="program">
+              <summary>7) Figma / Canva (เสริม) – ออกแบบหน้าตาเว็บก่อนลงมือเขียน</summary>
+              <div class="program-body">
+                <p>ช่วยวางเลย์เอาต์ สี ฟอนต์ และโครงหน้าเว็บ ทำให้เขียนจริงได้เร็วขึ้น</p>
+                <ul>
+                  <li><strong>Figma</strong>: <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">figma.com</a></li>
+                  <li><strong>Canva</strong>: <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">canva.com</a></li>
+                  <li><strong>วิธีใช้แบบสั้น</strong>:
+                    <ol class="program-steps">
+                      <li>เลือกขนาดเฟรม (Desktop/Mobile)</li>
+                      <li>วางกล่อง (Header/Content/Footer) แล้วกำหนดระยะห่าง</li>
+                      <li>จดสีหลัก 2–3 สี และฟอนต์ 1–2 แบบ แล้วค่อยไปทำใน CSS</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 6: โครงสร้างโปรเจกต์ -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 6: โครงสร้างโปรเจกต์เว็บไซต์</h3>
+          <p class="step-description">
+            จัดระเบียบไฟล์ให้เป็นระบบ เพื่อให้ง่ายต่อการดูแลและพัฒนาต่อ
+          </p>
+
+          <div class="card example-card">
+            <h4>โครงสร้างโฟลเดอร์ที่แนะนำ:</h4>
+            <pre class="code-block"><code>my-website/
+├── index.html          (หน้าแรก)
+├── about.html          (หน้าอื่น ๆ)
+├── styles/
+│   ├── main.css        (สไตล์หลัก)
+│   └── responsive.css  (สไตล์สำหรับมือถือ)
+├── scripts/
+│   └── main.js         (JavaScript หลัก)
+├── images/             (รูปภาพ)
+└── assets/             (ไฟล์อื่น ๆ)</code></pre>
+          </div>
+
+          <div class="grid grid-2">
+            <article class="card">
+              <h4>Best Practices</h4>
+              <ul>
+                <li>ใช้ชื่อไฟล์และโฟลเดอร์เป็นภาษาอังกฤษ</li>
+                <li>เขียนโค้ดให้อ่านง่าย มีคอมเมนต์อธิบาย</li>
+                <li>แยกไฟล์ CSS และ JS ออกจาก HTML</li>
+                <li>ใช้ชื่อ class ที่มีความหมาย เช่น <code>.header</code> แทน <code>.box1</code></li>
+                <li>ทดสอบบนเบราว์เซอร์หลายตัว (Chrome, Firefox, Edge)</li>
+                <li>ตรวจสอบว่าเว็บแสดงผลดีบนมือถือ</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h4>การ Debug (หาจุดผิดพลาด)</h4>
+              <ul>
+                <li>กด <strong>F12</strong> เพื่อเปิด Developer Tools</li>
+                <li>ดู Console สำหรับข้อผิดพลาด JavaScript</li>
+                <li>ใช้ <code>console.log()</code> เพื่อตรวจสอบค่า</li>
+                <li>ตรวจสอบ Elements เพื่อดูโครงสร้าง HTML</li>
+                <li>ใช้ Network tab เพื่อดูการโหลดไฟล์</li>
+                <li>ทดสอบ Responsive ด้วย Device Toolbar (Ctrl+Shift+M)</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <!-- ขั้นตอนที่ 7: ตัวอย่างโปรเจกต์ -->
+        <div class="webdev-step">
+          <h3 class="step-title">ขั้นตอนที่ 7: ตัวอย่างโปรเจกต์แรก</h3>
+          <p class="step-description">
+            สร้างเว็บไซต์ง่าย ๆ ที่รวม HTML, CSS, และ JavaScript เข้าด้วยกัน
+          </p>
+
+          <div class="card example-card">
+            <h4>โปรเจกต์: หน้า Landing Page แบบง่าย</h4>
+            
+            <p><strong>1. สร้างไฟล์ index.html:</strong></p>
+            <pre class="code-block"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="th"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;เว็บไซต์ของฉัน&lt;/title&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;ยินดีต้อนรับ&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href="#home"&gt;หน้าแรก&lt;/a&gt;
+      &lt;a href="#about"&gt;เกี่ยวกับ&lt;/a&gt;
+      &lt;a href="#contact"&gt;ติดต่อ&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  
+  &lt;main&gt;
+    &lt;section id="home"&gt;
+      &lt;h2&gt;สวัสดีครับ!&lt;/h2&gt;
+      &lt;p&gt;นี่คือเว็บไซต์แรกที่ฉันสร้าง&lt;/p&gt;
+      &lt;button id="clickBtn"&gt;คลิกฉัน&lt;/button&gt;
+      &lt;p id="message"&gt;&lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  
+  &lt;footer&gt;
+    &lt;p&gt;© 2024 เว็บไซต์ของฉัน&lt;/p&gt;
+  &lt;/footer&gt;
+  
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <p><strong>2. สร้างไฟล์ styles.css:</strong></p>
+            <pre class="code-block"><code>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}</code></pre>
+
+            <p><strong>3. สร้างไฟล์ script.js:</strong></p>
+            <pre class="code-block"><code>document.addEventListener("DOMContentLoaded", function() {
+  const button = document.getElementById("clickBtn");
+  const message = document.getElementById("message");
+  
+  button.addEventListener("click", function() {
+    message.textContent = "คุณคลิกปุ่มแล้ว! ยินดีด้วย!";
+    message.style.color = "green";
+    message.style.fontWeight = "bold";
+  });
+});</code></pre>
+          </div>
+        </div>
+
+        <!-- สรุป -->
+        <div class="card summary-card">
+          <h3>สรุปขั้นตอนการเขียนเว็บ</h3>
+          <ol style="padding-left: 1.5rem; color: var(--text-muted);">
+            <li><strong>เริ่มจาก HTML</strong> – สร้างโครงสร้างก่อน</li>
+            <li><strong>เพิ่ม CSS</strong> – จัดรูปแบบให้สวยงาม</li>
+            <li><strong>ใส่ JavaScript</strong> – ทำให้โต้ตอบได้</li>
+            <li><strong>ทำให้ Responsive</strong> – รองรับทุกหน้าจอ</li>
+            <li><strong>ทดสอบและแก้ไข</strong> – ใช้ Developer Tools</li>
+            <li><strong>ฝึกฝนบ่อย ๆ</strong> – ทำโปรเจกต์เล็ก ๆ หลายตัว</li>
+          </ol>
+          <p style="margin-top: 1rem; color: var(--text-muted);">
+            <strong>คำแนะนำ:</strong> อย่าพยายามจำทุกอย่างในครั้งเดียว 
+            เริ่มจากพื้นฐานแล้วค่อย ๆ เรียนรู้เพิ่มเติม 
+            การฝึกฝนด้วยการทำโปรเจกต์จริงจะช่วยให้จำและเข้าใจได้ดีที่สุด!
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>เว็บไซต์ให้ความรู้คอมพิวเตอร์สำหรับผู้เริ่มต้น จัดทำเพื่อการศึกษาและแบ่งปันความรู้</p>
+      <button class="btn btn-small" id="backToTop">ขึ้นด้านบน</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
